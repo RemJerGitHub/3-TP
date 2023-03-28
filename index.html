@@ -18,6 +18,8 @@
                 <p class="card-text">Nom : {{userName}}</p>
                 <input type = "text" v-bind:value = "userName" name = "inputNom">
                 <p class="card-text">Âge : {{userAge}}</p>
+                <button v-on:click="count++">Ajouter 1</button>
+                <p class = "cart-text">Le compte est a {{count}}</p>
             </div>
             <div class="card-footer text-muted">
                 <h5>Infos générées via des fonctions : </h5>  

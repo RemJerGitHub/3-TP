@@ -4,7 +4,8 @@ Vue.createApp({
         return {
             imgLink:'https://s3.amazonaws.com/medium.cosplay.com/77883/2111288.jpg',
             userName:'BestCosplayerMario',
-            userAge:45
+            userAge:45,
+            count: 0
         }
     },
     //! Les fonctions
